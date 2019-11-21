@@ -4,8 +4,8 @@ namespace BowlingKata
 {
     public class BowlingGame
     {
-        private ArrayList _frames;
-        private ArrayList _throws;
+        private readonly ArrayList _frames;
+        private readonly ArrayList _throws;
 
         public BowlingGame()
         {

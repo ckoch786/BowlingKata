@@ -6,7 +6,7 @@ namespace BowlingKata
 {
     public class BowlingTest
     {
-        private BowlingGame _game;
+        private readonly BowlingGame _game;
 
         public BowlingTest()
         {

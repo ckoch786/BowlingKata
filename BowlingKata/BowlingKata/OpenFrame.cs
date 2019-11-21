@@ -4,9 +4,8 @@ namespace BowlingKata
 {
     public class OpenFrame : IFrame
     {
-        private ArrayList _throws;
-        private int _startingThrow;
-        private int score;
+        private readonly ArrayList _throws;
+        private readonly int _startingThrow;
 
         public OpenFrame(ArrayList throws, int firstThrow, int secondThrow)
         {
@@ -14,8 +13,6 @@ namespace BowlingKata
             _startingThrow = throws.Count;
             _throws.Add(firstThrow);
             _throws.Add(secondThrow);
-
-            score = firstThrow + secondThrow;
         }
 
         public int Score()

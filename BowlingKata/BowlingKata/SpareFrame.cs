@@ -4,8 +4,8 @@ namespace BowlingKata
 {
     public class SpareFrame : IFrame
     {
-        private ArrayList _throws;
-        private int _startingThrow;
+        private readonly ArrayList _throws;
+        private readonly int _startingThrow;
 
         public SpareFrame(ArrayList throws, int firstBall, int secondBall)
         {
